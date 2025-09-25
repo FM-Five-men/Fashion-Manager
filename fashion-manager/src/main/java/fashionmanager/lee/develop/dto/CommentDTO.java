@@ -11,5 +11,5 @@ public class CommentDTO {
     private int good;
     private int cheer;
     private int memberNum;
-    private String memberName; // MEMBER 테이블과 JOIN하여 가져올 사용자 이름
+    private String memberName;
 }

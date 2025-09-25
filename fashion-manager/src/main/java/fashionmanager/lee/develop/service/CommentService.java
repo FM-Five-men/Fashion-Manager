@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor // final 필드에 대한 생성자 자동 주입
+@RequiredArgsConstructor
 public class CommentService {
 
     private final CommentRepository commentRepository;

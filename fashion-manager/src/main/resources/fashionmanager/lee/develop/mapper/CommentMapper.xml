@@ -7,15 +7,15 @@
 
     <select id="findCommentsByPost" parameterType="map" resultType="fashionmanager.lee.develop.dto.CommentDTO">
         SELECT
-        A.NUM AS num
-        , A.CONTENT AS content
-        , A.GOOD AS good
-        , A.CHEER AS cheer
-        , A.MEMBER_NUM AS memberNum
-        , B.NAME AS memberName
-        FROM COMMENT A
-        JOIN MEMBER B ON A.MEMBER_NUM = B.NUM
-        WHERE
+               A.NUM AS num
+             , A.CONTENT AS content
+             , A.GOOD AS good
+             , A.CHEER AS cheer
+             , A.MEMBER_NUM AS memberNum
+             , B.NAME AS memberName
+          FROM COMMENT A
+          JOIN MEMBER B ON A.MEMBER_NUM = B.NUM
+         WHERE
         <choose>
             <when test="postType == 'fashion'">
                 A.FASHION_POST_NUM = #{postNum}
@@ -27,21 +27,21 @@
                 A.MENTORING_POST_NUM = #{postNum}
             </when>
         </choose>
-        ORDER BY
-        A.NUM ASC
+         ORDER BY
+         A.NUM ASC
     </select>
 
     <select id="findCommentByNum" parameterType="_int" resultType="fashionmanager.lee.develop.dto.CommentDTO">
         SELECT
-            A.NUM AS num
+               A.NUM AS num
              , A.CONTENT AS content
              , A.GOOD AS good
              , A.CHEER AS cheer
              , A.MEMBER_NUM AS memberNum
              , B.NAME AS memberName
-        FROM COMMENT A
-                 JOIN MEMBER B ON A.MEMBER_NUM = B.NUM
-        WHERE A.NUM = #{commentNum}
+          FROM COMMENT A
+          JOIN MEMBER B ON A.MEMBER_NUM = B.NUM
+         WHERE A.NUM = #{commentNum}
     </select>
 
 </mapper>
