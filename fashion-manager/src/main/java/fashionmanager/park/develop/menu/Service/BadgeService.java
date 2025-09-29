@@ -1,7 +1,5 @@
 package fashionmanager.park.develop.menu.Service;
 
-import jakarta.transaction.Transactional;
-import org.springframework.stereotype.Service;
 import fashionmanager.park.develop.mapper.UserMapper;
 import fashionmanager.park.develop.mapper.UserStructMapper;
 import fashionmanager.park.develop.menu.DTO.UserDTO;
@@ -9,6 +7,8 @@ import fashionmanager.park.develop.menu.Entity.Badge;
 import fashionmanager.park.develop.menu.Entity.User;
 import fashionmanager.park.develop.menu.repository.BadgeRepository;
 import fashionmanager.park.develop.menu.repository.UserRepository;
+import jakarta.transaction.Transactional;
+import org.springframework.stereotype.Service;
 
 @Service
 public class BadgeService {

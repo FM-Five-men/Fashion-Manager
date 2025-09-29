@@ -1,8 +1,8 @@
 package fashionmanager.park.develop.mapper;
 
 
-import org.apache.ibatis.annotations.Mapper;
 import fashionmanager.park.develop.menu.DTO.UserDTO;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
