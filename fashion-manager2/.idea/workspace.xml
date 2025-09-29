@@ -4,112 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06fda6d6-c120-46b0-a0b7-26f6b9160f1b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fashion_manager.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fashion_manager.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/FashionManager2ApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/BlacklistServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/CategoryServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/HashTagServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/MemberServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/MessageServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/ReportServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/fashionmanager.kim.develop.CategoryServiceTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/fashionmanager.kim.develop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fashionmanager/lee/develop/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fashionmanager/lee/develop/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-fashionmanager.kim.develop.CategoryServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtAuthenticationFilter.class.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtTokenProvider.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberController.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberMapper.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberRightDTO.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberService.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MessageController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MessageService.class.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfiguration.class.uniqueId8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/CategoryServiceTest.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/FashionManager2Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/config/BaekAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/config/BaekAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/controller/PostController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/controller/PostServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/ModifyRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/ModifyResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/RegistRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/RegistResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/entity/MentoringPostEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/entity/MentoringPostEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/FashionPostServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/MentoringPostServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/PostService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/ReviewPostServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/dto/MemberRightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/dto/MemberRightDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/FashionHashTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/FashionHashTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/ReviewCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/ReviewCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/aggregate/InfluencerApplyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/aggregate/InfluencerApplyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/controller/InfluencerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyCreateRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyCreateRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/repository/InfluencerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/service/InfluencerApplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/service/InfluencerApplyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/config/SongAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/config/SongAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fashionmanager/lee/develop/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fashionmanager/lee/develop/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/FashionManager2ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/BlacklistServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/BlacklistServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/CategoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/CategoryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/HashTagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/HashTagServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MemberServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MessageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MessageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/ReportServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/ReportServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="06fda6d6-c120-46b0-a0b7-26f6b9160f1b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,17 +27,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="fashion_manager" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fashion_manager" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fashion_manager" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -226,7 +110,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.FashionManagerApplication.executor": "Run",
     "Spring Boot.FashionManagerApplication2.executor": "Run",
-    "git-widget-placeholder": "features",
+    "git-widget-placeholder": "readme",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
