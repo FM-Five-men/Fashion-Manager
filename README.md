@@ -173,7 +173,7 @@
 ---
 ### 2-3. 물리 모델링
 
-<img src = "./image/물리erd.png" width = "1000"> </img> <br>
+<img src = "./image/erd.png" width = "1000"> </img> <br>
 ---
 ## 3. 서버 구축
 
@@ -183,8 +183,12 @@
 <img src = "./image/리눅스slave2.png" width = "1000"> </img> <br>
 
 ---
-## 4. DDL
+## 4. DB
 
+  <details>
+    <summary> DDL</summary>
+    <img src = "./gif/상영예정작예상평점.gif" width="800"> </img> 
+  </details>
 
 
 <br>
