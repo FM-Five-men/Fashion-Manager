@@ -147,7 +147,7 @@
 
 ## 1-4. WBS
 
-<img src = "./image/wbs.png" width = "1000"> </img> <br>
+<img src = "./image/WBS.png" width = "1000"> </img> <br>
 ---
 
 ## 1-5. 요구사항 명세서 
@@ -155,9 +155,10 @@
 <img src = "./image/요구사항1.png" width = "1000"> </img>
 <img src = "./image/요구사항2.png" width = "1000"> </img> <br>
 ---
-## 1-6. UML
+## 1-6. DDD
 
-<img src = "./image/UML.png" width = "1000"> </img> <br>
+<img src = "./image/DDD1.png" width = "1000"> </img>
+<img src = "./image/DDD2.png" width = "1000"> </img> <br>
 ---
 
 ## 2. DB 모델링
@@ -168,7 +169,7 @@
 ---
 ### 2-2. 논리 모델링
 
-<img src = "./image/논리erd.png" width = "1000"> </img> <br>
+<img src = "./image/barker.png" width = "1000"> </img> <br>
 ---
 ### 2-3. 물리 모델링
 
