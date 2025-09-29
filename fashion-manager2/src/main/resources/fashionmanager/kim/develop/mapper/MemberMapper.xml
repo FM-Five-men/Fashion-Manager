@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.kim.develop.mapper.MemberMapper">
+    <select id="selectMessageAllow" parameterType="string" resultType="fashionmanager.kim.develop.dto.MemberDTO">
+        SELECT
+            A.NUM AS memberNum
+             , A.ID AS memberId
+             , A.PWD AS memberPwd
+             , A.EMAIL AS memberEmail
+             , A.NAME AS memberName
+             , A.AGE AS memberAge
+             , A.GENDER AS memberGender
+             , A.HEIGHT AS memberHeight
+             , A.WEIGHT AS memberWeight
+             , A.STATUS AS memberStatus
+             , A.REPORT_COUNT AS memberReportCount
+             , A.DAILY_REPORT_COUNT AS memberDailyReportCount
+             , A.GOOD_COUNT AS memberGoodCount
+             , A.MONTHLY_GOOD_COUNT AS memberMonthlyGoodCount
+             , A.CHEER_COUNT AS memberCheerCount
+             , A.MESSAGE_ALLOW AS memberMessageAllow
+        FROM MEMBER A
+        WHERE A.ID = #{selectMemberId}
+    </select>
+
+    <select id="selectMemberByNum" parameterType="_int" resultType="fashionmanager.kim.develop.dto.MemberDTO">
+        SELECT
+            A.NUM AS memberNum
+             , A.ID AS memberId
+             , A.PWD AS memberPwd
+             , A.EMAIL AS memberEmail
+             , A.NAME AS memberName
+             , A.AGE AS memberAge
+             , A.GENDER AS memberGender
+             , A.HEIGHT AS memberHeight
+             , A.WEIGHT AS memberWeight
+             , A.STATUS AS memberStatus
+             , A.REPORT_COUNT AS memberReportCount
+             , A.DAILY_REPORT_COUNT AS memberDailyReportCount
+             , A.GOOD_COUNT AS memberGoodCount
+             , A.MONTHLY_GOOD_COUNT AS memberMonthlyGoodCount
+             , A.CHEER_COUNT AS memberCheerCount
+             , A.MESSAGE_ALLOW AS memberMessageAllow
+        FROM MEMBER A
+        WHERE A.NUM = #{selectMemberNum}
+    </select>
+
+    <select id="selectMember" resultType="fashionmanager.kim.develop.dto.MemberDTO">
+        SELECT
+            A.NUM AS memberNum
+             , A.ID AS memberId
+             , A.PWD AS memberPwd
+             , A.EMAIL AS memberEmail
+             , A.NAME AS memberName
+             , A.AGE AS memberAge
+             , A.GENDER AS memberGender
+             , A.HEIGHT AS memberHeight
+             , A.WEIGHT AS memberWeight
+             , A.STATUS AS memberStatus
+             , A.REPORT_COUNT AS memberReportCount
+             , A.DAILY_REPORT_COUNT AS memberDailyReportCount
+             , A.GOOD_COUNT AS memberGoodCount
+             , A.MONTHLY_GOOD_COUNT AS memberMonthlyGoodCount
+             , A.CHEER_COUNT AS memberCheerCount
+             , A.MESSAGE_ALLOW AS memberMessageAllow
+        FROM MEMBER A
+    </select>
+
+    <select id="selectMemberById" parameterType="string" resultType="fashionmanager.kim.develop.dto.MemberDTO">
+        SELECT
+            A.NUM AS memberNum
+             , A.ID AS memberId
+             , A.PWD AS memberPwd
+             , A.EMAIL AS memberEmail
+             , A.NAME AS memberName
+             , A.AGE AS memberAge
+             , A.GENDER AS memberGender
+             , A.HEIGHT AS memberHeight
+             , A.WEIGHT AS memberWeight
+             , A.STATUS AS memberStatus
+             , A.REPORT_COUNT AS memberReportCount
+             , A.DAILY_REPORT_COUNT AS memberDailyReportCount
+             , A.GOOD_COUNT AS memberGoodCount
+             , A.MONTHLY_GOOD_COUNT AS memberMonthlyGoodCount
+             , A.CHEER_COUNT AS memberCheerCount
+             , A.MESSAGE_ALLOW AS memberMessageAllow
+        FROM MEMBER A
+        WHERE A.ID = #{selectMemberId}
+    </select>
+
+    <select id="selectMemberRightById" parameterType="string" resultType="fashionmanager.kim.develop.dto.MemberRightDTO">
+        SELECT
+            B.NUM AS memberNum
+             , B.ID AS memberId
+             , B.PWD AS memberPwd
+             , B.EMAIL AS memberEmail
+             , B.NAME AS memberName
+             , B.AGE AS memberAge
+             , B.GENDER AS memberGender
+             , B.HEIGHT AS memberHeight
+             , B.WEIGHT AS memberWeight
+             , B.STATUS AS memberStatus
+             , B.REPORT_COUNT AS memberReportCount
+             , B.DAILY_REPORT_COUNT AS memberDailyReportCount
+             , B.GOOD_COUNT AS memberGoodCount
+             , B.MONTHLY_GOOD_COUNT AS memberMonthlyGoodCount
+             , B.CHEER_COUNT AS memberCheerCount
+             , B.MESSAGE_ALLOW AS memberMessageAllow
+             , C.NUM AS memberStateNum
+             , C.NAME AS memberStateName
+        FROM ASSIGNED_RIGHT A
+        JOIN MEMBER B ON (A.MEMBER_NUM = B.NUM)
+        JOIN MEMBER_STATUS C ON (A.MEMBER_STATE_NUM = C.NUM)
+        WHERE B.ID = #{selectMemberId}
+    </select>
+</mapper>
+

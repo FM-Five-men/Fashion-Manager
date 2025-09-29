@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fashionmanager.park.develop.mapper.UserMapper">
+
+  <!-- 회원 + 뱃지 매핑 -->
+  <resultMap id="userWithBadgesResultMap" type="fashionmanager.park.develop.menu.DTO.UserDTO">
+    <id property="userNum" column="userNum"/>
+    <result property="userId" column="userId"/>
+    <result property="userPwd" column="userPwd"/>
+    <result property="userEmail" column="userEmail"/>
+    <result property="userName" column="userName"/>
+    <result property="userAge" column="userAge"/>
+    <result property="userGender" column="userGender"/>
+
+    <!-- 뱃지 컬렉션 매핑 -->
+    <collection property="badges" ofType="fashionmanager.park.develop.menu.DTO.BadgeDTO">
+      <id property="badgeNum" column="badgeNum"/>
+      <result property="badgeName" column="badgeName"/>
+    </collection>
+  </resultMap>
+
+
+    <!-- 1. 특정 회원 조회-->
+    <select id="selectUserByNum" parameterType="int"  resultMap="userWithBadgesResultMap">
+      SELECT
+        m.num AS userNum,
+        m.id AS userId,
+        m.pwd AS userPwd,
+        m.email AS userEmail,
+        m.NAME AS userName,
+        m.age AS userAge,
+        m.gender AS userGender,
+        b.num AS badgeNum,
+        b.name AS badgeName
+        FROM member m
+        LEFT JOIN assigned_badge mb ON m.num = mb.member_num
+        LEFT JOIN badge b ON mb.badge_num = b.num
+        WHERE m.num = #{userNum}
+    </select>
+
+
+
+    <!-- 2. 전체 회원 조회 -->
+    <select id="selectAllUsers" resultType="fashionmanager.park.develop.menu.DTO.UserDTO">
+    SELECT
+      m.num AS userNum,
+      m.id AS userId,
+      m.pwd AS userPwd,
+      m.email AS userEmail,
+      m.NAME AS userName,
+      m.age AS userAge,
+      m.gender AS userGender,
+      b.num AS badgeNum,
+      b.name AS badgeName
+     FROM member m
+     LEFT JOIN assigned_badge mb ON m.num = mb.member_num
+     LEFT JOIN badge b ON mb.badge_num = b.num
+     ORDER BY m.num DESC
+    </select>
+
+</mapper>

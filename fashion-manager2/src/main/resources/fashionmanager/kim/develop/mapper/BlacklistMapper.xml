@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.kim.develop.mapper.BlacklistMapper">
+    <select id="selectBlacklist" resultType="fashionmanager.kim.develop.dto.BlacklistDTO">
+        SELECT
+               A.NUM AS blacklistNum
+             , A.REASON AS blacklistReason
+             , A.START_DATE AS blacklistStartDate
+             , A.EXP_DATE AS blacklistExpDate
+             , A.MEMBER_NUM AS blacklistMemberNum
+          FROM BLACKLIST A
+    </select>
+</mapper>

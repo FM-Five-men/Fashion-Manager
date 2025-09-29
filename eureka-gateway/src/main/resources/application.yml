@@ -1,0 +1,35 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: eureka-gateway
+  cloud:
+    gateway:
+      routes:
+       - id: member-service
+         uri: lb://member-service
+         predicates:
+           - Path=/member-service/**
+         filters:
+           - RewritePath=/member-service/(?<segment>.*), /$\{segment}
+#           - JwtAuthenticationFilter
+
+       - id: manager-service
+         uri: lb://manager-service
+         predicates:
+           - Path=/manager-service/**
+         filters:
+           - RewritePath=/manager-service/(?<segment>.*), /$\{segment}
+           - JwtAuthenticationFilter
+
+token:
+  expiration_time: 86400000
+  secret: CxCdBy6P0vET6d/oKN9YSXzUBwfYGR+petj55jmBGrk3XaTqpaCMdgYbv7Q7ccrwjc2441jyOY0OKCFqbZPOHQ==

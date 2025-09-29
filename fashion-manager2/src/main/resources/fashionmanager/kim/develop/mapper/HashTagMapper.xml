@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.kim.develop.mapper.HashTagMapper">
+    <resultMap id="hashTagMap" type="fashionmanager.kim.develop.dto.HashTagDTO">
+        <id property="hashTagNum" column="NUM"/>
+        <result property="hashTagName" column="NAME"/>
+    </resultMap>
+
+    <select id="selectHashTags" resultMap="hashTagMap">
+        SELECT
+               A.NUM
+             , A.NAME
+        FROM HASH_TAG A
+    </select>
+
+    <select id="selectHashTagsAndPosts" resultType="fashionmanager.kim.develop.dto.HashTagAndPostDTO">
+        SELECT
+               B.NAME AS hashTagName
+             , C.TITLE AS fashionPostContent
+             , C.CONTENT AS fashionPostContent
+             , C.GOOD AS fashionPostGood
+             , C.CHEER AS fashionPostCheer
+             , C.TEMP AS fashionPostTemp
+             , C.MEMBER_NUM AS fashionPostMemberNum
+          FROM FASHION_HASHTAG A
+          JOIN HASH_TAG B ON (A.TAG_NUM = B.NUM)
+          JOIN FASHION_POST C ON (A.POST_NUM = C.NUM)
+    </select>
+</mapper>

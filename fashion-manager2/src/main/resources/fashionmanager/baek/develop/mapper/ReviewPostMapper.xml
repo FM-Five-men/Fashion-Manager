@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.baek.develop.mapper.ReviewPostMapper">
+    <select id="findAll" resultType="fashionmanager.baek.develop.dto.SelectAllReviewPostDTO">
+        SELECT
+                num
+              , title
+              , member_num
+              , good
+              , cheer
+          FROM review_post
+         ORDER BY num desc;
+    </select>
+    <resultMap id="selectDetailPostResultMap" type="fashionmanager.baek.develop.dto.SelectDetailReviewPostDTO">
+        <id property="num" column="post_num"/>
+        <result property="title" column="post_title"/>
+        <result property="content" column="post_content"/>
+        <result property="good" column="post_good"/>
+        <result property="cheer" column="post_cheer"/>
+        <result property="temp" column="temp"/>
+        <result property="memberNum" column="member_num"/>
+        <result property="memberName" column="member_name"/>
+
+
+        <collection property="items" ofType="fashionmanager.baek.develop.dto.ItemDTO">
+            <id property="num" column="item_num"/>
+            <result property="name" column="item_name"/>
+        </collection>
+
+        <collection property="photos" ofType="fashionmanager.baek.develop.dto.PhotoDTO">
+            <id property="num" column="num"/>
+            <result property="postNum" column="post_num"/>
+            <result property="name" column="name"/>
+            <result property="path" column="path"/>
+            <result property="photoCategoryNum" column="photo_category_num"/>
+        </collection>
+
+    </resultMap>
+    <select id="findById" resultMap="selectDetailPostResultMap">
+        SELECT
+               rp.num AS post_num
+             , rp.title AS post_title
+             , rp.content AS post_content
+             , rp.member_num
+             , m.name AS member_name
+             , rp.good AS post_good
+             , rp.cheer AS post_cheer
+             , fi.num AS item_num
+             , fi.name AS item_name
+             , p.num AS photo_num
+             , p.name AS photo_name
+             , p.path AS photo_path
+          FROM review_post rp
+          LEFT JOIN member m ON rp.member_num = m.num
+          LEFT JOIN review_item ri ON rp.num = ri.post_num
+          LEFT JOIN fashion_item fi ON ri.item_num = fi.num
+          LEFT JOIN photo p ON rp.num = p.post_num AND p.photo_category_num = 2
+         WHERE rp.num = #{num}
+    </select>
+</mapper>

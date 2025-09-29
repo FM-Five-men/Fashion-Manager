@@ -4,7 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06fda6d6-c120-46b0-a0b7-26f6b9160f1b" name="변경" comment="" />
+    <list default="true" id="06fda6d6-c120-46b0-a0b7-26f6b9160f1b" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-gateway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fashion_manager.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fashion_manager.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/FashionManager2ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/BlacklistServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/CategoryServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/HashTagServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/MemberServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/MessageServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fashionmanager/kim/develop/ReportServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/fashionmanager.kim.develop.CategoryServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/fashionmanager.kim.develop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fashionmanager/lee/develop/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fashionmanager/lee/develop/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-fashionmanager.kim.develop.CategoryServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtAuthenticationFilter.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtTokenProvider.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberController.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberMapper.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberRightDTO.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberService.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MessageController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MessageService.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfiguration.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/CategoryServiceTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/FashionManager2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/config/BaekAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/config/BaekAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/controller/PostServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/ModifyRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/ModifyResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/RegistRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/dto/RegistResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/entity/MentoringPostEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/entity/MentoringPostEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/FashionPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/MentoringPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/baek/develop/service/ReviewPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/dto/MemberRightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/dto/MemberRightDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/FashionHashTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/FashionHashTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/ReviewCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/entity/ReviewCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/kim/develop/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/lee/develop/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/aggregate/InfluencerApplyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/aggregate/InfluencerApplyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/controller/InfluencerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyCreateRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyCreateRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/dto/InfluencerApplyResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/repository/InfluencerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/service/InfluencerApplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/InfluencerApply/service/InfluencerApplyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/config/SongAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fashionmanager/song/develop/config/SongAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fashionmanager/lee/develop/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fashionmanager/lee/develop/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fashionmanager/song/develop/InfluencerApply/mapper/InfluencerApplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/FashionManager2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/BlacklistServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/BlacklistServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/CategoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/CategoryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/HashTagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/HashTagServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MemberServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MessageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/MessageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/ReportServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fashionmanager/kim/develop/ReportServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +132,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="fashion_manager" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fashion_manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fashion_manager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -96,6 +212,7 @@
     "Gradle.ReportServiceTest.getReportsTest.executor": "Run",
     "Gradle.ReportServiceTest.selectReportsTest.executor": "Run",
     "Gradle.ReportServiceTest.testDeleteReports.executor": "Run",
+    "Gradle.fashion-manager [clean].executor": "Run",
     "Gradle.fashion-manager 빌드.executor": "Run",
     "Gradle.fashion-manager2 빌드.executor": "Run",
     "Gradle.소스 다운로드.executor": "Run",
@@ -107,15 +224,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.FashionManager2Application.executor": "Run",
     "Spring Boot.FashionManagerApplication.executor": "Run",
+    "Spring Boot.FashionManagerApplication2.executor": "Run",
     "git-widget-placeholder": "features",
-    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -129,8 +246,18 @@
       <recent name="C:\lecture\project_2\fashion-manager\src\main\resources\fashionmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FashionManager2Application">
-    <configuration name="CategoryServiceTest.testDeleteReviewCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FashionManagerApplication2">
+    <configuration name="BlacklistServiceTest.testSelectBlacklist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,31 +270,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;fashionmanager.kim.develop.CategoryServiceTest.testDeleteReviewCategory&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CategoryServiceTest.testInsertReviewCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;fashionmanager.kim.develop.CategoryServiceTest.testInsertReviewCategory&quot;" />
+            <option value="&quot;fashionmanager.kim.develop.BlacklistServiceTest.testSelectBlacklist&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,7 +305,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MemberServiceTest.testSelectMemberByNum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberServiceTest.testSelectMemberRight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -215,7 +318,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;fashionmanager.kim.develop.MemberServiceTest.testSelectMemberByNum&quot;" />
+            <option value="&quot;fashionmanager.kim.develop.MemberServiceTest.testSelectMemberRight&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -226,7 +329,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MessageServiceTest.testInsertMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemberServiceTest.testUpdateRight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -239,7 +342,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;fashionmanager.kim.develop.MessageServiceTest.testInsertMessage&quot;" />
+            <option value="&quot;fashionmanager.kim.develop.MemberServiceTest.testUpdateRight&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,6 +351,28 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="fashion-manager [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -261,21 +386,37 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="FashionManager2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="FashionManagerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="fashion_manager.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="fashionmanager.FashionManager2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fashionmanager.park.develop.FashionManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FashionManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="fashion_manager.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fashionmanager.FashionManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FashionManagerApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="fashion_manager.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fashionmanager.FashionManagerApplication2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CategoryServiceTest.testDeleteReviewCategory" />
-        <item itemvalue="Gradle.CategoryServiceTest.testInsertReviewCategory" />
-        <item itemvalue="Gradle.MemberServiceTest.testSelectMemberByNum" />
+        <item itemvalue="Gradle.fashion-manager [clean]" />
+        <item itemvalue="Gradle.MemberServiceTest.testUpdateRight" />
         <item itemvalue="Gradle.MemberServiceTest.testSelectMember" />
-        <item itemvalue="Gradle.MessageServiceTest.testInsertMessage" />
+        <item itemvalue="Gradle.MemberServiceTest.testSelectMemberRight" />
+        <item itemvalue="Gradle.BlacklistServiceTest.testSelectBlacklist" />
       </list>
     </recent_temporary>
   </component>
@@ -312,11 +453,13 @@
       <workItem from="1758804539726" duration="19203000" />
       <workItem from="1758852983110" duration="22133000" />
       <workItem from="1758895477541" duration="262000" />
-      <workItem from="1758940416084" duration="291000" />
-      <workItem from="1758965819871" duration="841000" />
-      <workItem from="1758971723810" duration="9939000" />
-      <workItem from="1759061592345" duration="12117000" />
-      <workItem from="1759124496601" duration="2156000" />
+      <workItem from="1758940416084" duration="5718000" />
+      <workItem from="1758971673601" duration="10379000" />
+      <workItem from="1759061517177" duration="8462000" />
+      <workItem from="1759124466933" duration="3553000" />
+      <workItem from="1759129507789" duration="3590000" />
+      <workItem from="1759134051319" duration="2525000" />
+      <workItem from="1759137556266" duration="390000" />
     </task>
     <servers />
   </component>

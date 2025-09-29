@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.baek.develop.mapper.MentoringPostMapper">
+    <select id="findAll" resultType="fashionmanager.baek.develop.dto.SelectAllMentoringPostDTO">
+        SELECT
+                num
+              , title
+              , author_num
+          FROM mentoring_post
+         ORDER BY num desc;
+    </select>
+    <resultMap id="selectDetailPostResultMap" type="fashionmanager.baek.develop.dto.SelectDetailMentoringPostDTO">
+        <id property="num" column="post_num"/>
+        <result property="title" column="post_title"/>
+        <result property="content" column="post_content"/>
+        <result property="finish" column="post_finish"/>
+        <result property="authorNum" column="author_num"/>
+        <result property="authorName" column="author_name"/>
+
+
+        <collection property="photos" ofType="fashionmanager.baek.develop.dto.PhotoDTO">
+            <id property="num" column="num"/>
+            <result property="postNum" column="post_num"/>
+            <result property="name" column="name"/>
+            <result property="path" column="path"/>
+            <result property="photoCategoryNum" column="photo_category_num"/>
+        </collection>
+
+    </resultMap>
+    <select id="findById" resultMap="selectDetailPostResultMap">
+        SELECT
+               mp.num AS post_num
+             , mp.title AS post_title
+             , mp.content AS post_content
+             , mp.finish AS post_finish
+             , mp.author_num
+             , m.name AS author_name
+             , p.num AS photo_num
+             , p.name AS photo_name
+             , p.path AS photo_path
+          FROM mentoring_post mp
+          LEFT JOIN member m ON mp.author_num = m.num
+          LEFT JOIN photo p ON mp.num = p.post_num AND p.photo_category_num = 3
+         WHERE mp.num = #{num}
+    </select>
+</mapper>

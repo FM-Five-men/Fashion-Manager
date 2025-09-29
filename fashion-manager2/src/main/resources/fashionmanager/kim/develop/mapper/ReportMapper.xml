@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.kim.develop.mapper.ReportMapper">
+    <select id="selectReports" resultType="fashionmanager.kim.develop.dto.ReportDTO">
+        SELECT
+               A.NUM AS reportNum
+             , A.DATE AS reportDate
+             , A.CONTENT AS reportContent
+             , A.STATE AS reportState
+             , A.REPORT_CATEGORY_NUM AS reportCategoryNum
+             , A.FASHION_POST_NUM AS fashionPostNum
+             , A.REVIEW_POST_NUM AS reviewPostNUm
+             , A.MENTORING_POST_NUM AS mentoringPostNum
+             , A.COMMENT_NUM AS commentNum
+          FROM REPORT A
+    </select>
+</mapper>
+

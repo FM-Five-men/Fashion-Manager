@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.song.develop.menteeApply.mapper.MenteeApplyMapper">
+    <resultMap id="menteeApplyMap" type="fashionmanager.song.develop.menteeApply.dto.MenteeApplyResponseDTO">
+        <id property="num" column="NUM"/>
+        <result property="content" column="CONTENT"/>
+        <result property="accept" column="ACCEPT"/>
+        <result property="mentoringPostNum" column="MENTORING_POST_NUM"/>
+        <result property="memberNum" column="member_num"/>
+
+        <!--조인을 위한 추가 매핑-->
+        <result property="memberName" column="MEMBER_NAME"/>
+    </resultMap>
+
+    <select id="selectResultApply" parameterType="map" resultMap="menteeApplyMap">
+        SELECT
+               A.NUM
+             , A.CONTENT
+             , A.ACCEPT
+             , A.MENTORING_POST_NUM
+             , A.MEMBER_NUM
+             , B.NAME AS MEMBER_NAME
+          FROM MENTEE_APPLY A
+          JOIN MEMBER B ON B.NUM = A.MEMBER_NUM
+        <trim prefix="WHERE" prefixOverrides="AND | OR">
+            <if test="content != null and content != ''">
+                AND A.CONTENT LIKE CONCAT('%', #{content}, '%')
+            </if>
+            <if test="accept != null and accept != ''">
+                AND A.ACCEPT LIKE CONCAT('%', #{accept}, '%')
+            </if>
+            <if test="mentoringPostNum != null">
+                AND A.MENTORING_POST_NUM = #{mentoringPostNum}
+            </if>
+            <if test="memberName != null and memberName != ''">
+                AND B.NAME LIKE CONCAT('%', #{memberName}, '%')
+            </if>
+        </trim>
+    </select>
+</mapper>

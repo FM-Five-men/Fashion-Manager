@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fashionmanager.kim.develop.mapper.MessageMapper">
+    <select id="selectAllMessages" resultType="fashionmanager.kim.develop.dto.MessageDTO">
+        SELECT
+               A.NUM AS messageNum
+             , A.TITLE AS messageTitle
+             , A.CONTENT AS messageContent
+             , A.DATE AS messageDate
+             , A.EXP_DATE AS messageExpDate
+             , A.SENDER_NUM AS messageSenderNum
+             , A.RECEIVER_NUM AS messageReceiverNum
+             , A.MESSAGE_CATEGORY_NUM AS messageCategoryNum
+             , A.MESSAGE_CONFIRMED AS messageConfirmed
+          FROM MESSAGE A
+    </select>
+
+    <select id="selectSenderMessage" parameterType="string" resultType="fashionmanager.kim.develop.dto.SelectMassageDTO">
+        SELECT
+               A.TITLE AS title
+             , A.CONTENT AS content
+             , A.DATE AS date
+             , A.EXP_DATE AS expDate
+             , B.ID AS senderId
+             , C.ID AS receiverId
+             , D.NAME AS category
+             , A.MESSAGE_CONFIRMED AS messageConfirmed
+          FROM MESSAGE A
+          JOIN MEMBER B ON (A.SENDER_NUM = B.NUM)
+          JOIN MEMBER C ON (A.RECEIVER_NUM = C.NUM)
+          JOIN MESSAGE_CATEGORY D ON (A.MESSAGE_CATEGORY_NUM = D.NUM)
+         WHERE B.ID = #{senderId}
+    </select>
+
+    <select id="selectReceiverMessage" parameterType="string" resultType="fashionmanager.kim.develop.dto.SelectMassageDTO">
+        SELECT
+            A.TITLE AS title
+             , A.CONTENT AS content
+             , A.DATE AS date
+             , A.EXP_DATE AS expDate
+             , B.ID AS senderId
+             , C.ID AS receiverId
+             , D.NAME AS category
+             , A.MESSAGE_CONFIRMED AS messageConfirmed
+        FROM MESSAGE A
+            JOIN MEMBER B ON (A.SENDER_NUM = B.NUM)
+            JOIN MEMBER C ON (A.RECEIVER_NUM = C.NUM)
+            JOIN MESSAGE_CATEGORY D ON (A.MESSAGE_CATEGORY_NUM = D.NUM)
+        WHERE C.ID = #{receiverId}
+    </select>
+</mapper>
+
