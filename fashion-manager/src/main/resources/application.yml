@@ -51,3 +51,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 # 사용자 정의 프로퍼티 (필요시 @Value("${filepath}") 로 주입)
 filepath: C:/uploadFiles/
+
+
+#여러분 브랜치 삭제해서 미안합니다.
