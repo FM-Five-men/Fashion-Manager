@@ -12,7 +12,7 @@
 
 |   |   |   |   |   |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------------------------: |
-|      <img src="./image/park.png" width="250px;" alt=""/>      |      <img src="./image/paik.png" width="250px;" alt=""/>      |            <img src="./image/lee.png" width="250px;" alt=""/>            |    <img src="./image/song.png" width="250px;" alt=""/>     |      <img src="./image/kim.png" width="250px;" alt=""/>      |
+|      <img src="./image/park.png" width="350px;" alt=""/>      |      <img src="./image/paik.png" width="350px;" alt=""/>      |            <img src="./image/lee.png" width="350px;" alt=""/>            |    <img src="./image/song.png" width="350px;" alt=""/>     |      <img src="./image/kim.png" width="350px;" alt=""/>      |
 |      [박상윤](https://github.com/sangyoun1020)      |      [백준승](https://github.com/seoguhoe2)      |      [이순우](https://github.com/SoonWooLee1)      |      [송형석](https://github.com/thdgudtjr0415)      |      [김승민](https://github.com/indy0322)      |
 
 </div>
